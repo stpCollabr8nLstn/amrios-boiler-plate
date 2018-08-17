@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: arial, sans-serif;
+  background: #EFEFEF; }
 
 .App {
   text-align: center; }
@@ -27,3 +28,85 @@ body {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+
+.dtc--nav {
+  background: #EFEFEF;
+  width: calc(100% - 254px);
+  height: 64px;
+  display: flex;
+  padding: 16px 128px;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between; }
+
+.dtc--logo svg {
+  height: 32px;
+  fill: #151D66; }
+
+.dtc--hero {
+  background: url("/shave_img_1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  padding: 32px;
+  display: flex;
+  align-items: center; }
+
+.dtc--card-container {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  margin: auto; }
+
+.dtc--card {
+  margin: 64px !important;
+  display: flex;
+  flex-direction: column; }
+
+.dtc--nav__links {
+  display: flex; }
+
+.dtc--link {
+  color: #151D66;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  margin: 16px; }
+  .dtc--link:visited {
+    color: #151D66; }
+  .dtc--link:after {
+    position: relative;
+    height: 4px;
+    width: 100%;
+    background: transparent;
+    content: '';
+    display: flex;
+    top: 4px; }
+  .dtc--link:hover:after {
+    background: linear-gradient(to left, #1148AF, #1491D4); }
+
+.dtc--card__img {
+  max-height: 250px; }
+
+.dtc--hero__img {
+  width: 100%; }
+
+.dtc--footer {
+  position: relative;
+  bottom: 0; }
+
+.dtc--footer__container {
+  height: 256px;
+  padding: 16px 128px; }
+
+.dtc--footer__link {
+  color: #EFEFEF;
+  text-decoration: none;
+  font-weight: 300; }
+
+.dtc--info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 256px;
+  font-size: 24px; }

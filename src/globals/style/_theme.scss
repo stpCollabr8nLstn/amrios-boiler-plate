@@ -1,0 +1,42 @@
+$brand01: #151D66;
+$brand02: #1491D4;
+$brand03: #1176AF;
+$brand04: #EFEFEF;
+$brand05: #F9D649;
+$brand06: #E37640;
+$brand07: #1148AF;
+$text01: rgba(0,0,0,0.80);
+$text02: #FFF;
+$text03: #606060;
+$error01: rgba(187, 26, 26, 1);
+$error02: rgba(228, 34, 34, 1);
+
+$gradient: linear-gradient($brand01, $brand07);
+
+// Box Shadow
+$boxShadow01: 0 16px 24px 16px rgba(21,29,102,0.25);
+$boxShadow02: 0 12px 24px 12px rgba(21,29,102,0.25);
+$boxShadow03: 0 8px 16px 8px rgba(21,29,102,0.25);
+$boxShadow04: 0 4px 8px 4px rgba(21,29,102,0.25);
+$boxShadow05: 0 2px 4px 2px rgba(21,29,102,0.25);
+
+// Border
+$borderRadius01: 2px;
+$borderRadius02: 4px;
+$borderRadius03: 32px;
+$borderRadius04: 50%;
+
+// Typography
+$fontFamily: "Futura T, arial, san-serif";
+$fontSize01: 16px;
+$fontSize02: 14px;
+$fontSize03: 24px ;  // Header title
+$fontSize04: 12px;
+$lineHeight01: 36px;
+$lineHeight02: 54px ;// Header title
+$lineHeight03: 48px ;// Label
+
+// Table
+$dividerColor: rgba(0,0,0,0.12);
+$tableRowHover: $brand04;
+$tableRowSelected: #CCC;

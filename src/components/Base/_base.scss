@@ -26,3 +26,108 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.dtc--nav {
+  background: $brand04;
+  width: calc(100% - 254px);
+  height: 64px;
+  display: flex;
+  padding: 16px 128px;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+
+.dtc--logo {
+  svg {
+    height: 32px;
+    fill: $brand01;
+  }
+}
+
+.dtc--hero {
+  background: url('/shave_img_1.jpg') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.dtc--card-container {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.dtc--card {
+  margin: 64px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.dtc--nav__links {
+  display: flex;
+}
+
+.dtc--link {
+  color: $brand01;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  margin: 16px;
+
+  &:visited {
+    color: $brand01;
+  }
+
+  &:after {
+    position: relative;
+    height: 4px;
+    width: 100%;
+    background: transparent;
+    content: '';
+    display: flex;
+    top: 4px;
+  }
+
+  &:hover {
+    &:after {
+      background: linear-gradient(to left, $brand07, $brand02);
+    }
+  }
+}
+
+.dtc--card__img {
+  max-height: 250px;
+}
+
+.dtc--hero__img {
+  width: 100%;
+}
+
+.dtc--footer {
+  position: relative;
+  bottom: 0;
+}
+
+.dtc--footer__container {
+  height: 256px;
+  padding: 16px 128px;
+}
+
+.dtc--footer__link {
+  color: $brand04;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.dtc--info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 256px;
+  font-size: 24px;
+}
